@@ -1,0 +1,76 @@
+@define-color theme_bg_color #ffffff;
+@define-color theme_fg_color #000000;
+@define-color theme_base_color #ffffff;
+@define-color theme_text_color #000000;
+@define-color theme_selected_bg_color #000000;
+@define-color theme_selected_fg_color #ffffff;
+@define-color theme_unfocused_bg_color #ffffff;
+@define-color theme_unfocused_fg_color #000000;
+@define-color theme_tooltip_bg_color #ffffff;
+@define-color theme_tooltip_fg_color #000000;
+
+window,
+.background,
+headerbar,
+.titlebar,
+menubar,
+toolbar,
+menu,
+menuitem,
+popover,
+statusbar,
+.sidebar,
+placessidebar,
+treeview,
+.view,
+iconview {
+    background-color: #ffffff;
+    background-image: none;
+    color: #000000;
+}
+
+headerbar button,
+toolbar button,
+button {
+    background-color: #f2f2f2;
+    background-image: none;
+    color: #000000;
+    border: 1px solid #cccccc;
+    box-shadow: none;
+}
+
+entry {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #cccccc;
+}
+
+treeview:selected,
+iconview:selected,
+menuitem:hover,
+.sidebar row:selected,
+placessidebar row:selected {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+iconview:selected,
+iconview:selected:focus,
+iconview:selected label,
+treeview:selected,
+treeview:selected:focus,
+treeview:selected label,
+.view:selected,
+.view:selected label,
+.sidebar row:selected label,
+placessidebar row:selected label {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+iconview label,
+.view label,
+iconview text,
+.view text {
+    color: #000000;
+}

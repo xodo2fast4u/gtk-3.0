@@ -1,0 +1,291 @@
+* {
+    font-family: "JetBrainsMono NF", "Roboto", sans-serif;
+    font-size: 13px;
+    outline: none;
+    box-shadow: none;
+    text-shadow: none;
+    transition: all 0.18s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+window,
+.background {
+    background: linear-gradient(to bottom, #1a1a1a, #111111);
+    color: #cccccc;
+    border-radius: 10px;
+    border: none;
+}
+
+window headerbar,
+window.background headerbar,
+headerbar,
+headerbar.titlebar,
+.titlebar {
+    background: linear-gradient(to bottom, #141414, #0d0d0d);
+    background-image: linear-gradient(to bottom, #141414, #0d0d0d);
+    background-color: #0d0d0d;
+    color: #f0f0f0;
+    border: none;
+    box-shadow: none;
+    text-shadow: none;
+    min-height: 34px;
+    padding: 0 6px;
+}
+
+window headerbar.titlebar,
+headerbar.titlebar {
+    border-radius: 10px 10px 0 0;
+}
+
+headerbar .title {
+    color: #f0f0f0;
+    font-weight: bold;
+}
+
+headerbar button,
+.titlebutton {
+    background: transparent;
+    background-image: none;
+    color: #888888;
+    border: none;
+    border-radius: 7px;
+    min-width: 26px;
+    min-height: 26px;
+}
+
+headerbar button:hover,
+.titlebutton:hover {
+    background: linear-gradient(to bottom, #242424, #1a1a1a);
+    background-image: linear-gradient(to bottom, #242424, #1a1a1a);
+    color: #f0f0f0;
+}
+
+headerbar entry,
+.path-bar-box entry {
+    background: linear-gradient(to bottom, #242424, #1a1a1a);
+    background-image: linear-gradient(to bottom, #242424, #1a1a1a);
+    color: #f0f0f0;
+    border: none;
+    border-radius: 8px;
+    padding: 4px 10px;
+}
+
+window menubar,
+menubar,
+menubar.background {
+    background: linear-gradient(to bottom, #141414, #0d0d0d);
+    background-image: linear-gradient(to bottom, #141414, #0d0d0d);
+    background-color: #0d0d0d;
+    color: #cccccc;
+    border: none;
+    box-shadow: none;
+    padding: 2px 4px;
+}
+
+menubar > menuitem {
+    background: transparent;
+    background-image: none;
+    color: #cccccc;
+    border-radius: 6px;
+    padding: 4px 10px;
+    margin: 0 1px;
+}
+
+menubar > menuitem:hover {
+    background: linear-gradient(to bottom, #242424, #1a1a1a);
+    background-image: linear-gradient(to bottom, #242424, #1a1a1a);
+    color: #f0f0f0;
+}
+
+toolbar,
+.toolbar,
+.primary-toolbar {
+    background: linear-gradient(to bottom, #141414, #0d0d0d);
+    background-image: linear-gradient(to bottom, #141414, #0d0d0d);
+    background-color: #0d0d0d;
+    color: #cccccc;
+    border: none;
+    box-shadow: none;
+    padding: 4px 6px;
+}
+
+.path-bar button,
+pathbar button {
+    background: transparent;
+    color: #888888;
+    border: none;
+    border-radius: 7px;
+    padding: 3px 10px;
+    margin: 0 1px;
+}
+
+.path-bar button:hover,
+pathbar button:hover {
+    background: linear-gradient(to bottom, #242424, #1a1a1a);
+    color: #f0f0f0;
+}
+
+.path-bar button:checked,
+pathbar button:checked {
+    background: linear-gradient(to bottom, #242424, #1a1a1a);
+    color: #f0f0f0;
+}
+
+.sidebar,
+placessidebar,
+.sidebar-pane {
+    background: linear-gradient(to bottom, #141414, #0d0d0d);
+    color: #888888;
+    border: none;
+}
+
+.sidebar row,
+placessidebar row {
+    padding: 4px 8px;
+    border-radius: 7px;
+    margin: 1px 6px;
+    color: #888888;
+}
+
+.sidebar row:hover,
+placessidebar row:hover {
+    background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0.08),
+        rgba(255, 255, 255, 0.02)
+    );
+    color: #cccccc;
+}
+
+.sidebar row:selected,
+placessidebar row:selected {
+    background: linear-gradient(to bottom, #242424, #1a1a1a);
+    color: #f0f0f0;
+}
+
+treeview,
+.view {
+    background: transparent;
+    color: #cccccc;
+}
+
+treeview:selected,
+.view:selected {
+    background: linear-gradient(to bottom, #242424, #1a1a1a);
+    color: #f0f0f0;
+    border-radius: 6px;
+}
+
+treeview header button {
+    background: linear-gradient(to bottom, #161616, #0f0f0f);
+    color: #888888;
+    border: none;
+    padding: 4px 8px;
+}
+
+iconview {
+    background: transparent;
+    color: #cccccc;
+}
+
+iconview:selected {
+    background: linear-gradient(to bottom, #242424, #1a1a1a);
+    color: #f0f0f0;
+    border-radius: 8px;
+}
+
+scrollbar {
+    background: transparent;
+    border: none;
+}
+
+scrollbar slider {
+    background: #333333;
+    border-radius: 10px;
+    min-width: 8px;
+    min-height: 8px;
+}
+
+scrollbar slider:hover {
+    background: #444444;
+}
+
+statusbar,
+.statusbar {
+    background: linear-gradient(to bottom, #141414, #0d0d0d);
+    color: #888888;
+    border-top: none;
+    padding: 3px 10px;
+}
+
+menu,
+.menu,
+popover {
+    background: linear-gradient(to bottom, #1a1a1a, #0d0d0d);
+    color: #cccccc;
+    border: none;
+    border-radius: 9px;
+    padding: 4px;
+}
+
+menuitem,
+.menuitem {
+    color: #cccccc;
+    border-radius: 6px;
+    padding: 4px 8px;
+}
+
+menuitem:hover,
+.menuitem:hover {
+    background: linear-gradient(to bottom, #242424, #1a1a1a);
+    color: #f0f0f0;
+}
+
+button {
+    background: linear-gradient(to bottom, #1a1a1a, #111111);
+    color: #cccccc;
+    border: none;
+    border-radius: 8px;
+    padding: 4px 10px;
+}
+
+button:hover {
+    background: linear-gradient(to bottom, #242424, #1a1a1a);
+    color: #f0f0f0;
+}
+
+button:active,
+button:checked {
+    background: linear-gradient(to bottom, #202020, #161616);
+    color: #f0f0f0;
+}
+
+tooltip {
+    background: linear-gradient(to bottom, #1a1a1a, #0d0d0d);
+    border-radius: 9px;
+    border: none;
+}
+
+tooltip label {
+    color: #cccccc;
+    padding: 6px 8px;
+}
+
+placeholder {
+    color: #444444;
+}
+
+separator {
+    background-color: #222222;
+    min-width: 1px;
+    min-height: 1px;
+}
+
+progressbar trough {
+    background: #161616;
+    border-radius: 8px;
+}
+
+progressbar progress {
+    background: linear-gradient(to bottom, #444444, #333333);
+    border-radius: 8px;
+}
