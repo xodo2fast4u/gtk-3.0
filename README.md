@@ -120,26 +120,26 @@ The repository provides both dark (`gtk.dark.css`) and high-contrast light (`gtk
 
 `bookmarks` configures the left sidebar shortcuts in the GTK file chooser dialog and file managers (such as Thunar, Nautilus or Nemo):
 
-| URI                                | Display Shortcut |
-| ---------------------------------- | ---------------- |
-| `file:///home/<user>/Pictures`     | Pictures         |
-| `file:///home/<user>/Documents`    | Documents        |
-| `file:///home/<user>/Music`        | Music            |
-| `file:///home/<user>/Downloads`    | Downloads        |
-| `file:///home/<user>/Programs`     | Programs         |
-| `file:///home/<user>/Videos`       | Videos           |
+| URI                             | Display Shortcut |
+| ------------------------------- | ---------------- |
+| `file:///home/<user>/Pictures`  | Pictures         |
+| `file:///home/<user>/Documents` | Documents        |
+| `file:///home/<user>/Music`     | Music            |
+| `file:///home/<user>/Downloads` | Downloads        |
+| `file:///home/<user>/Programs`  | Programs         |
+| `file:///home/<user>/Videos`    | Videos           |
 
 > **Note:** Update the username path in `bookmarks` to match your active user account.
 
 ## Project Structure
 
-| File               | Purpose                                                                 |
-| ------------------ | ----------------------------------------------------------------------- |
-| [gtk.css](gtk.css)                 | Active GTK 3 custom stylesheet overriding widgets, headers and buttons |
-| [gtk.dark.css](gtk.dark.css)       | Dark theme stylesheet template with gradient styling                    |
-| [gtk.light.css](gtk.light.css)     | Clean, high-contrast light mode alternative stylesheet                  |
-| [settings.ini](settings.ini)       | GTK 3 system properties, font choices, cursor size and theme selection |
-| [bookmarks](bookmarks)             | File chooser sidebar quick-access directory bookmarks                   |
+| File                           | Purpose                                                                |
+| ------------------------------ | ---------------------------------------------------------------------- |
+| [gtk.css](gtk.css)             | Active GTK 3 custom stylesheet overriding widgets, headers and buttons |
+| [gtk.dark.css](gtk.dark.css)   | Dark theme stylesheet template with gradient styling                   |
+| [gtk.light.css](gtk.light.css) | Clean, high-contrast light mode alternative stylesheet                 |
+| [settings.ini](settings.ini)   | GTK 3 system properties, font choices, cursor size and theme selection |
+| [bookmarks](bookmarks)         | File chooser sidebar quick-access directory bookmarks                  |
 
 ## Troubleshooting
 
